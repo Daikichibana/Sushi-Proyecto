@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height:100%;
+    margin: 0;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 30px;
+    padding: 20px;
+}
+
+.main-menu {
+    margin-right: 30px;
+    padding: 20px;
+}
+
+.main {
+    background-color: red;
+    height: 100%;
+}
+
+.section {
+    background-color: pink;
+}
+
+.footer {
+    background-color: rgb(148, 148, 148);
+    text-align: center;
+    padding: 5px;
+}
