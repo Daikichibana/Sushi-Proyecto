@@ -14,21 +14,92 @@ html, body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #252525;
 }
 
 .logo {
     margin-left: 30px;
-    padding: 20px;
+    padding: 30px;
+    font-family: 'ZCOOL KuaiLe', Courier, monospace;
+    font-style: italic;
+}
+
+.logo__link {
+    text-decoration: none;
+}
+
+.logo__title {
+    color: white;
+}
+
+.logo__title--bold {
+    color: #af0404;
 }
 
 .main-menu {
     margin-right: 30px;
+    display: flex;
+}
+
+.main-menu {
+    width: 250px;
+}
+
+.main-menu__thumbnail {
     padding: 20px;
+    
+}
+
+.main-menu__img {
+    width: 100%;
+    border: 1px solid white;
+    opacity: 10%;
 }
 
 .main {
-    background-color: black;
-    height: 100%;
+    background-color: #414141;
+    
+}
+
+.hero {
+    background-color: #414141;
+    background-blend-mode: lighten;
+    background-image: url("https://images.unsplash.com/photo-1556745750-68295fefafc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -150px;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero__title {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 100px;
+    padding: 0px;
+    margin-bottom: 20px;
+    color: white; 
+    -webkit-text-stroke: 0.1px black;
+}
+
+.hero__button {
+    padding: 30px;
+    background-color: #252525;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.hero__button-text {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.hero__button:hover {
+    background-color: #af0404;
 }
 .carousel {
     margin-top: 50px;
@@ -142,11 +213,13 @@ html, body{
 
 
 .section {
-    background-color: black;
+    background-color: #414141;
+    color: white;
 }
 
 .footer {
-    background-color: rgb(148, 148, 148);
+    background-color: #252525;
+    color: #fff;
     text-align: center;
     padding: 5px;
 }
