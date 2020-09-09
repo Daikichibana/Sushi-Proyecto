@@ -223,3 +223,8 @@ html, body{
     text-align: center;
     padding: 5px;
 }
+
+#map {
+    height: 500px;
+    width: 100%;
+}
