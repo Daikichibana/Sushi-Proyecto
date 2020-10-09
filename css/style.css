@@ -251,3 +251,8 @@ html, body{
     width: 90%;
     margin: 50px;
 }
+
+.menu__comida {
+    height: 500px;
+    background: red;
+}
