@@ -212,9 +212,26 @@ html, body{
 }
 
 
-.section {
+.galeria {
     background-color: #414141;
     color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.galeria__thumbnail {
+    width: 42%;
+    height: 350px;
+    padding: 50px;
+    padding-bottom: 0px;
+}
+
+.galeria__img {
+    border: 8px #af0404 solid;
+    width: 100%;
+    height: 100%;
 }
 
 .footer {
@@ -224,7 +241,13 @@ html, body{
     padding: 5px;
 }
 
+.mapa {
+    display: flex;
+    justify-content: center;
+}
+
 #map {
     height: 500px;
-    width: 100%;
+    width: 90%;
+    margin: 50px;
 }
