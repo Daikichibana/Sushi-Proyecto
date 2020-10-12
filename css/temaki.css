@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height:100%;
+    font-size: 62.5%;    
+    background-color: black;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #252525;
+}
+
+.logo {
+    margin-left: 3rem;
+    padding: 3rem;
+    font-family: 'ZCOOL KuaiLe', Courier, monospace;
+    font-style: italic;
+}
+
+.logo__link {
+    text-decoration: none;
+}
+
+.logo__title {
+    color: white;
+}
+
+.logo__title--bold {
+    color: #af0404;
+}
+
+.main-menu {
+    margin-right: 3rem;
+    display: flex;
+}
+
+.main-menu {
+    width: 25.0rem;
+}
+
+
+.title-container{
+    height: 6rem;
+    width: auto;
+    margin-top: 2rem;
+}
+
+.title{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.principal-img__container{
+    width: 100vw;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+}
+
+.principal-img{
+    height: 40rem;
+}
+
+.recipe-container{
+    margin: 20px 40px;
+    color: white;
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: lighter;
+}
+
+.recipe-title{
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.recipe-subtitle{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.list-ingredients{
+    margin-left: 2rem;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
